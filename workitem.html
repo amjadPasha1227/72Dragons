@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Work Item - A Painter's Web</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="brand-name">A Painter's Web</a>
+                <ul class="menu" id="menu">
+                    <li>
+                        <a href="works.html">Works</a>
+                    </li>
+                    <li>
+                        <a href="about_us.html">About</a>
+                    </li>
+                </ul>
+                <div class="menu_icon" id="menu_icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="works-item-wrapper">
+            <div class="container">
+                <div class="work-item-innr">
+                    <div class="img-wrapper">
+                        <img src="./images/work-item.png" alt="artwork" />
+                    </div>
+                    <div class="art-details">
+                        <h3><span>Title: </span><em>Painting</em></h3>
+                        <h2><span>Artist: </span><em>Anni Roenkae</em></h2>
+                        <h4><span>Year: </span><em>2022</em></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
